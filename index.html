@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>Login page</title>
+        <link href="site1.css" rel="stylesheet">
+    </header>
+    <body class="loginbg" >
+     <div class="logtab">
+        <h1 class="size">Welcome to Sasi Grocery Shop😊</h1>  
+        <form name="login" action="site.html">
+            <table class="order1" border="1" rules="all" class="loginbg1">
+                <tr>
+                    <th colspan="2">Login</th>
+                </tr>
+                <tr>
+                    <th><label>Enter your mobile :</label></th>
+                    <th><input type="text" pattern="^[6-9]{1}[0-9]{9}$" placeholder="10 digit Number" required></th>
+                </tr>
+                <tr>
+                    <th><label>OTP :</label></th>
+                    <th><input type="text" pattern="^[0-9]{4}$" placeholder="4 digit OTP" required></th>
+                </tr>
+                <tr>
+                    <th> <input type="reset" value="Clear" class="bill"></th>
+                    <th> <input type="submit" value="Login" id="login" class="bill"></th>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

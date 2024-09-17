@@ -1,0 +1,253 @@
+@media(min-width:490px)
+{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#bg{
+    background-image: url(pic/bg2.jpg);
+    background-size: 100%;
+    background-position: 5%;
+    border: 0.5px solid black;
+    background-repeat: no-repeat;
+    height: 700px;
+
+}
+.del{
+    float: left;
+    margin-top: 0px;
+    padding-top: 0%;
+}
+
+@keyframes deli {
+    
+}
+
+.que{
+    text-align: center;
+    font-style: italic;
+    font-size: 35px;
+}
+.lol{
+    margin-top: 0;
+    float: left;
+    padding-top: 0%;
+    margin-left: 2px;
+}
+#menu{
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    float: right;
+}
+.cc{
+    text-decoration: none;
+    color: rgb(36, 62, 89);
+    font-size: 28px;
+    margin-right: 10px;
+}
+.botton:hover{
+    text-decoration: underline;
+    color: blueviolet;
+    background-color: plum;
+    transform: scale(0.85);
+    border-radius: 10px;
+    
+}
+.logo{
+    margin: 0px auto;
+    height: 100px;
+    line-height: 100px;
+    top: 0px;
+    position: sticky;
+    border: 1px solid black;
+    background-color: rgb(248, 240, 240);
+    z-index: 1000;
+}
+.main:hover,.lol:hover,.cc:hover{
+    color:skyblue;
+    transform: scale(1.5);
+}
+.tble:hover{
+    transform: scale(0.8);
+}
+section{
+    width: 100%;
+    height: 450px;
+    margin: 10px auto;
+}
+section article{
+    width: 60%;
+    height: 400px;
+   
+    text-align: justify;
+    font-style: italic;
+    font-size: 18px;
+    float: right;
+    margin-right: 20px;
+    color: rgba(249, 245, 236, 0.984);
+    margin-top: 10%;
+}
+
+section article h2{
+    text-indent: 35px;
+}
+.col{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    width:460px;
+    border-radius: 9px;
+    color:rgb(253, 230, 24);
+    font-weight: bold;
+    margin-top: 0%;
+}
+.botton{
+    text-decoration: none;
+    text-align: center;
+    font-size: 46px;
+    width: 300px;
+   margin-left: 45%;
+   font-style: italic;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   background-color: gold;
+   color: white;
+   animation-name: A;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+   text-decoration: none;
+   border-radius: 30px;
+
+} 
+
+@keyframes A{
+    0%{color: orchid;}
+    30%{color: rgb(235, 153, 153);}
+    50%{color: blueviolet;}
+    80%{color: cornflowerblue;}
+}
+.bg1{
+    border: 1px solid black;
+    background-image:url(pic/pgpg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    height: 1600px;
+}
+.table
+{
+    display: flex;
+    margin: 40px;
+    gap: 40px;
+    height: 250px;
+}
+.table a{
+    text-decoration: none;
+    color: rgb(196, 36, 183);
+    font-size: 25px;
+}
+.tble {
+    border: 1px solid black;
+    margin: 10px;
+   text-align: center;
+   color: black; 
+}
+.last{
+    position: sticky;
+}
+
+.about{
+   
+    margin: 0px auto;
+    height: 600px;
+
+}
+.bg2{
+    border: 1px solid black;
+    background-image:url(pic/loginbg2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    height: 1600px;
+}
+.order{
+    font-size:30px;
+    margin: auto;
+    background-color:wheat;
+}
+.order1{
+    font-size:25px;
+    margin: auto;
+    margin-top: 10%;
+    backdrop-filter: blur(3px);
+}
+
+.mm{
+    padding: auto;
+}
+.bill{
+    height: 50px;
+    width: 100px;
+}
+.lab{
+    padding-left: 60px;
+
+}
+.cart{
+text-indent:0px;
+}
+.loginbg{
+    background-image:url(pic/360_F_432527183_2WOguQwBqinsMrPQ9bQTQKA9boiWV0xN.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+}
+.size{
+    font-size: 40px;
+    color: white;
+}
+.logtab{
+    float: right;
+    margin-right: 150px;
+    margin-top: 200px;
+}
+.loghead{
+    float: right;
+    color: white;
+    
+}
+.About1{
+    height: 80px;
+    background-color: antiquewhite;
+    text-align: center;
+    line-height: 80px;
+}
+.logout{
+    float: right;
+    margin-right: 10px;
+    color: rgb(243, 29, 29);
+}
+.About2,.About3{
+    text-align: center;
+    font-size: 20px;
+}
+.cart1{
+    margin: auto;
+    text-align: center;
+    
+}
+
+
+
+
+
+
+
+
+}
+@media(max-width:479)
+{
+
+}
